@@ -7,7 +7,8 @@ const jokes = [
     "Why did the math book look sad? Because it had too many problems.",
     "Code MrMecha in the Fortnite Item Shop!",
     "Zav is a big back",
-    "! Beamed is the best NL Hybrid Staff"
+    "! Beamed is the best NL Hybrid Staff",
+    "Vix steals the cookies from Santa Claus"
 ];
 
 // Function to display a random joke
