@@ -58,6 +58,7 @@ function getBotResponse(input) {
         "bye": "Goodbye! Have a great day!",
         "what is your name": "I am your friendly AI chatbot!",
         "help": "How can I assist you? Feel free to ask me anything!"
+        "hi": "Beamed should work on the AI chat..."
     };
 
     // Split the input into words and check each word for a response
