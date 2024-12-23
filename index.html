@@ -13,3 +13,26 @@
         <button onclick="tellJoke()">Make Me Laugh!</button>
         <p id="joke"></p>
     </div>
+
+    <script>
+        function tellJoke() {
+            const jokes = [
+                "Why don't scientists trust atoms? Because they make up everything!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "Why don't skeletons fight each other? They don't have the guts!",
+                "What do you call fake spaghetti? An impasta!",
+                "Why did the math book look sad? Because it had too many problems.",
+                "Code MrMecha in the Fortnite Item Shop!",
+                "Zav is a big back",
+                "! Beamed is the best NL Hybrid Staff",
+                "Vix steals the cookies from Santa Clause",
+                "Dm \"! Beamed\" the numbers: 6739 and he will give you a cookie",
+                "Dm \"! Beamed\" the numbers: 9999 and he will reply with an angry face emoji..",
+                "he watches.. he sees.. he laughs... dont look away.."
+            ];
+            const randomIndex = Math.floor(Math.random() * jokes.length);
+            document.getElementById('joke').innerText = jokes[randomIndex];
+        }
+    </script>
+</body>
+</html>
