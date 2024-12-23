@@ -55,9 +55,19 @@ function getBotResponse(input) {
         "hello": "Hi there! How can I help you today?",
         "how are you": "I'm just a bunch of code, but I'm doing great! How about you?",
         "tell me a joke": "Why don't scientists trust atoms? Because they make up everything!",
-        "bye": "Goodbye! Have a great day!"
+        "bye": "Goodbye! Have a great day!",
+        "what is your name": "I am your friendly AI chatbot!",
+        "help": "How can I assist you? Feel free to ask me anything!"
     };
 
+    // Split the input into words and check each word for a response
+    const words = input.toLowerCase().split(" ");
+    for (let word of words) {
+        if (responses[word]) {
+            return responses[word];
+        }
+    }
+
     // Return a default response if no match is found
-    return responses[input.toLowerCase()] || "I'm not sure how to respond to that.";
+    return "I'm not sure how to respond to that. Can you please rephrase?";
 }
