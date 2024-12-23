@@ -5,6 +5,9 @@ const jokes = [
     "Why don't skeletons fight each other? They don't have the guts!",
     "What do you call fake spaghetti? An impasta!",
     "Why did the math book look sad? Because it had too many problems."
+    " Code MrMecha in the Fortnite Item Shop!"
+    " Zav is a big back"
+    " ! Beamed is the best NL Hybird Staff "
 ];
 
 // Function to display a random joke
